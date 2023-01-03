@@ -8,3 +8,4 @@ TO-DO
 3. Create journel tab
 4. Host website online
 5. Create a "Leave a message feature"
+6. Create a book review page
