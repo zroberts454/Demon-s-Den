@@ -4,20 +4,90 @@ background-color: black;
 h1 {
     color:black;
     font-size: 400%;
-    
-    
-    
-}
+    font-family:fantasy;
+} 
 #box1 {
     background: rgb(0,0,0);
     background: linear-gradient(90deg,rgba(255,32,32,1) 50%, rgba(0,0,0,1) 100%);
-    
     } 
 
 #box2{
     width: 750px;height: 500px;
     background: red;
     
-    
-    
 }
+.container {
+    position: relative;
+    width: 416px;
+  }
+  
+  .image {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 630px;
+    width: 416px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #2600ff;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .container1 {
+    position: relative;
+    width: 416px;
+  }
+  
+  .image1 {
+    display: block;
+    width: 416px;
+    height: 630px;
+  }
+  
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 630px;
+    width: 416px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #048100;
+  }
+  
+  .container:hover .overlay1 {
+    opacity: 1;
+  }
+  
+  .text1 {
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
